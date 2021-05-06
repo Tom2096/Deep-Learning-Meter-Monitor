@@ -1,8 +1,7 @@
 Improved Water-Meter-Monitor
 ===================
 ## Overview
-This project improves upon the original [Water Meter Monitor](https://github.com/Tom2096/Water-Meter-Monitor) by taking advantage of several **Deep Learning Neural Networks**. The original project demands the position and perspective of the odometer to be fixed in every snapshot as the x-axis and y-axis are manaully plotted at the begining. This issue is now combatted by using [HRNet](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch), a deep learning network that extracts key points   
-by producing heatmaps, to localize three key points of the odometer aand perform perspective correction. 
+This project improves upon the original [Water Meter Monitor](https://github.com/Tom2096/Water-Meter-Monitor) by taking advantage of several **Deep Learning Neural Networks**. The original project demands the position and perspective of the odometer to be fixed in every snapshot as the x-axis and y-axis are manaully plotted at the begining. This issue is now combatted by using [HRNet](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch) to localize three key points of the odometer and perform perspective correction. 
 
 
 
