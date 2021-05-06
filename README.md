@@ -5,7 +5,7 @@ This project improves upon the original [Water Meter Monitor](https://github.com
 
 ## Pipeline
 
-![Pipeline](https://github.com/Tom2096/Improved-Water-Meter-Monitor/diagrams/pipeline.png)
+![Pipeline](https://github.com/Tom2096/Improved-Water-Meter-Monitor/tree/main/diagrams/pipeline.png)
 
 
 
