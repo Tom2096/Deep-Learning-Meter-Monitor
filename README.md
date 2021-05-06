@@ -5,9 +5,6 @@ This project improves upon the original [Water Meter Monitor](https://github.com
 
 ## Pipeline
 
-<img src="https://github.com/Tom2096/Improved-Water-Meter-Monitor/tree/main/diagrams/pipeline.png" width="1000">
-
-
 
 A sample picture of the water meter is taken, with the hundredths reading indicated by the red arm of the odometer. 
 
