@@ -8,7 +8,7 @@ This project improves upon the original [Water Meter Monitor](https://github.com
 
 A sample picture of the water meter is taken, with the hundredths reading indicated by the red arm of the odometer. 
 
-![Inital Img of water meter](https://github.com/Tom2096/Improved-Water-Meter-Monitor/tree/main/diagrams/result_0.jpg)
+![Inital Img of water meter](diagrams/pipeline.png)
 
 Then, three points (in red) pinpointing the center, the y-axis, and the x-axis are manually plotted. These points will be used as a frame for all future pictures. 
 
