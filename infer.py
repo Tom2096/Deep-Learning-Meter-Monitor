@@ -396,7 +396,7 @@ def main(config):
             fig.suptitle('Pipeline', fontsize=50)
             fig.savefig(os.path.join('results', basename + '.jpg'))
 
-if __name__ == "__main__":  
+if __name__ == '__main__':  
 
     torch.manual_seed(0)
     torch.backends.cudnn.deterministic = True
