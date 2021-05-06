@@ -1,6 +1,8 @@
 Improved Water-Meter-Monitor
 ===================
 ## Overview
+This project improves upon the original [Water Meter Monitor](https://github.com/Tom2096/Water-Meter-Monitor) by taking advantage of several **Deep Learning Neural Networks**. 
+
 This is a program developed in **Python** using **OpenCV** and **Numpy**. It can take a snapshot of a water meter and read the value indicated by the arm of the odometer.
 
 ## Development
