@@ -4,6 +4,11 @@ Improved Water-Meter-Monitor
 This project improves upon the original [Water Meter Monitor](https://github.com/Tom2096/Water-Meter-Monitor) by taking advantage of several **Deep Learning Neural Networks**. The original project demands the position and perspective of the odometer to be fixed in every snapshot as the x-axis and y-axis are manaully plotted at the begining. This issue is now resolved by training [HRNet](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch) to localize three key points of the odometer and perform perspective correction. The latest approach also uses [YOLACT](https://github.com/dbolya/yolact) to extract the target mask through instance segmentation instead of HSV color filtering to enhance the accuaracy of the pipeline.
 
 ## Pipeline
+
+![Pipeline](https://github.com/Tom2096/Improved-Water-Meter-Monitor/diagrams/pipeline.png)
+
+
+
 A sample picture of the water meter is taken, with the hundredths reading indicated by the red arm of the odometer. 
 
 ![Inital Img of water meter](https://github.com/Tom2096/Water-Meter-Monitor/blob/main/Imgs/image.png)
