@@ -1,0 +1,3 @@
+dataset/
+pretrained/
+models/pose_hrnet_w48_384x288.pth
