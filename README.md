@@ -29,10 +29,7 @@ A rectangular bounding box is constructed by estimating the likely intersections
 
 ![InsSeg](diagrams/instSeg.jpg)
 
-YOLACT is used to perform instance segmentation on
-
-
-Then, three points (in red) pinpointing the center, the y-axis, and the x-axis are manually plotted. These points will be used as a frame for all future pictures. 
+YOLACT is used to perform instance segmentation on the warped image. The training dataset is annotated through [Labelme](https://github.com/wkentaro/labelme). 
 
 ![Three points plotted](https://github.com/Tom2096/Water-Meter-Monitor/blob/main/Imgs/Figure_2.png)
 
