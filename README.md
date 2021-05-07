@@ -7,6 +7,21 @@ This project improves upon the original [Water Meter Monitor](https://github.com
 
 ![Pipeline](diagrams/pipeline.png)
 
+The entire pipeline for the improved water meter monitor comprises of the following steps:
+- 1
+- 2
+- 2
+- 4
+- 
+
+
+
+
+
+
+
+
+
 Then, three points (in red) pinpointing the center, the y-axis, and the x-axis are manually plotted. These points will be used as a frame for all future pictures. 
 
 ![Three points plotted](https://github.com/Tom2096/Water-Meter-Monitor/blob/main/Imgs/Figure_2.png)
