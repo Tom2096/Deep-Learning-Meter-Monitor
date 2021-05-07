@@ -23,6 +23,9 @@ The three key points are defined as the three screws on the odometer. The gaussi
 
 A rectangular bounding box is constructed by estimating the likely intersections between the three located key points. Then, the four vertices of the bounding box are used to perform **OpenCV's WarpPerspective** to crop and correct the perspective of the odometer. 
 
+## 2.3 Instance Segmention ##
+
+
 
 
 Then, three points (in red) pinpointing the center, the y-axis, and the x-axis are manually plotted. These points will be used as a frame for all future pictures. 
