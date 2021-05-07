@@ -7,12 +7,12 @@ This project improves upon the original [Water Meter Monitor](https://github.com
 
 ![Pipeline](diagrams/pipeline.png)
 
-The entire pipeline for the improved water meter monitor comprises of the following steps:
-- 
-- 2
-- 2
-- 4
-- 
+The pipeline is as follows:
+- Key Point Localization through HRNet
+- Estimate Bounding Box and Perform Perspective Transformation
+- Instance Segmention through YOLACT
+- Angle Estimation through determining the Principle Axis
+
 
 
 
