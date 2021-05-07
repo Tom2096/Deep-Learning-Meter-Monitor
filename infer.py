@@ -395,7 +395,7 @@ def main(config):
             Path('results').mkdir(parents=True, exist_ok=True)
             fig.suptitle('Pipeline', fontsize=50)
             fig.savefig(os.path.join('results', basename + '.jpg'))
-
+   
 if __name__ == '__main__':  
 
     torch.manual_seed(0)
