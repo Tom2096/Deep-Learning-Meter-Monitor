@@ -33,10 +33,7 @@ YOLACT is used to perform instance segmentation on the warped image, which extra
 
 ## 2.4 Obtaining the Result ##
 
-![InsSeg](diagrams/result_0.jpg)
-![InsSeg](diagrams/result_1.jpg)
 ![InsSeg](diagrams/result_2.jpg)
-![InsSeg](diagrams/result_3.jpg)
 
 Once we obtain the mask of the pointer, we determine the eigenvector and the principle axis to find the direction of the arm. 
 
