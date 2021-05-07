@@ -31,6 +31,15 @@ A rectangular bounding box is constructed by estimating the likely intersections
 
 YOLACT is used to perform instance segmentation on the warped image, which extracts the mask of the red pointer. The previous method was to use HSV color filtering, but that approach proved unrelible when lighting conditions are not ideal. The training dataset is annotated through [Labelme](https://github.com/wkentaro/labelme), and is converted into COCO styled annotations for YOLACT.
 
+## 2.4 Obtaining the Result ##
+
+![InsSeg](diagrams/result_0.jpg)
+
+Once we obtain
+
+
+
+
 ![Three points plotted](https://github.com/Tom2096/Water-Meter-Monitor/blob/main/Imgs/Figure_2.png)
 
 The vertices of the box bounding the odometer is then created by adding and subtracting the length of the x-axis and y-axis. 
