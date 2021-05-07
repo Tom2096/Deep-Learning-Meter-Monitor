@@ -42,4 +42,9 @@ Once we obtain the mask of the pointer, we determine the eigenvector and the pri
 
 ## 3. Links to Pretrained Models and Datasets ##
 
+The following are links to the trained models and datasets used in this project:
+- Dataset for HRNet
+- Dataset for YOLACT
+- Initization Weights for HRNet
+- Final Trained Weights 
 
