@@ -42,8 +42,8 @@ More results can be seen [here](https://github.com/Tom2096/Improved-Water-Meter-
 ## 3. Links to Pretrained Models and Datasets ##
 
 The following are links to the trained models and datasets used in this project:
-- Dataset for HRNet
-- Dataset for YOLACT
-- Initization Weights for HRNet
-- Final Trained Weights 
+- [Dataset for HRNet](https://drive.google.com/drive/folders/1OyhjiDFPH2O_YPWVIrVoegi8py7ya96b?usp=sharing)
+- [Dataset for YOLACT](https://drive.google.com/drive/folders/1f9LNWA69lbdJCHALo-IvMGoV8E0WQdWJ?usp=sharing)
+- [Initization Weights for HRNet](https://drive.google.com/file/d/18cQAyBn509W38prkkC8WAqpCsD-MW7hq/view?usp=sharing)
+- [Final Trained Weights](https://drive.google.com/drive/folders/1LgMafW8-jSfxg0304NRhMt7lqE83P32H?usp=sharing) 
 
