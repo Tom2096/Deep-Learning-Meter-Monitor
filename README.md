@@ -8,7 +8,7 @@ This project improves upon the original [Water Meter Monitor](https://github.com
 ![Pipeline](diagrams/pipeline.png)
 
 The entire pipeline for the improved water meter monitor comprises of the following steps:
-- 1
+- 
 - 2
 - 2
 - 4
