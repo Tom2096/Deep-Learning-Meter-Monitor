@@ -38,28 +38,4 @@ YOLACT is used to perform instance segmentation on the warped image, which extra
 ![InsSeg](diagrams/result_2.jpg)
 ![InsSeg](diagrams/result_3.jpg)
 
-Once we obtain
-
-
-
-
-![Three points plotted](https://github.com/Tom2096/Water-Meter-Monitor/blob/main/Imgs/Figure_2.png)
-
-The vertices of the box bounding the odometer is then created by adding and subtracting the length of the x-axis and y-axis. 
-
-![clip bounding box](https://github.com/Tom2096/Water-Meter-Monitor/blob/main/Imgs/bbx.png)
-
-Then, the picture is read and converted into HSV color format to filter out the red arm of the odometer. 
-
-![Filtered Image](https://github.com/Tom2096/Water-Meter-Monitor/blob/main/Imgs/Figure_3.png)
-
-The image is then denoised by first eroding to rid the image of outlying pixels, then dilating to fill in any holes in the middle. Finally, the image is eroded again to trim the edges. 
-
-![Denoised Image](https://github.com/Tom2096/Water-Meter-Monitor/blob/main/Imgs/Figure_4.png)
-
-The eigenvalues and right eigenvectors are then computed to determine the direction of the arm
-
-The eigenvector corresponding  with the largest eigenvalue is then projected onto the x and y axis, which can be calculated to give the angle of rotation and the odometer reading.   
-![Denoised Image](https://github.com/Tom2096/Water-Meter-Monitor/blob/main/Imgs/Figure_5.png)
-
-
+Once we obtain the mask of the pointer, we determine the eigenvector and the principle axis to find the direction of the arm. 
