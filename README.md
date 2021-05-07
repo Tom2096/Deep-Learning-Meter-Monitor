@@ -17,7 +17,7 @@ This project improves upon the original [Water Meter Monitor](https://github.com
 
 ![Heatmaps](diagrams/heatmaps.jpg)
 
-The three key points are defined as the three screws on the odometer. The gaussian ground truth heatmaps shown above are generated as per methods desribed on the official [HRNet Github](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch). 
+The three key points are defined as the three screws on the odometer. The gaussian ground truth heatmaps shown above are generated as per methods desribed on the official [HRNet Github Page](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch). MSE Loss is used to sum the difference between the heatmaps produced by the model and the ground turth, and is minimizaed to optimize the model parameters.   
 
 
 
