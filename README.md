@@ -11,7 +11,7 @@ The pipeline consists of
 - Key Point Localization through HRNet
 - Bounding Box Estimation and Perspective Correction
 - Instance Segmention through YOLACT
-- Find Principle Axis & Obtain Reading
+- Eigenvectors & Principle Axis
 
 
 
