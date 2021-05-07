@@ -21,7 +21,7 @@ The three key points are defined as the three screws on the odometer. The gaussi
 
 ## 2.2 Perspective Correction ##
 
-Once the three key points are located, a rectangular bounding box is estimated. Then, the four vertices of the bounding is used to perform **OpenCV's WarpPerspective** to crop and correct the perspective of the odometer. 
+Once the three key points are located, a rectangular bounding box is estimated. Then, the four vertices of the bounding box are used to perform **OpenCV's WarpPerspective** to crop and correct the perspective of the odometer. 
 
 
 
