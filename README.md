@@ -27,6 +27,8 @@ A rectangular bounding box is constructed by estimating the likely intersections
 
 ## 2.3 Instance Segmention ##
 
+![InsSeg](diagrams/instSeg.jpg)
+
 YOLACT is used to perform instance segmentation on
 
 
