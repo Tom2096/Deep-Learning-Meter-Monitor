@@ -15,7 +15,7 @@ This project improves upon the original [Water Meter Monitor](https://github.com
 
 ## 2.1 Key Point Locatization ##
 
-
+![Heatmaps](diagrams/heatmaps.jpg)
 
 
 
