@@ -7,11 +7,11 @@ This project improves upon the original [Water Meter Monitor](https://github.com
 
 ![Pipeline](diagrams/pipeline.png)
 
-The pipeline consists of
-- Key Point Localization through HRNet
-- Bounding Box Estimation and Perspective Correction
-- Instance Segmention through YOLACT
-- Eigenvectors & Principle Axis
+**The pipeline consists of**
+- **Key Point Localization through HRNet**
+- **Bounding Box Estimation and Perspective Correction**
+- **Instance Segmention through YOLACT**
+- **Eigenvectors & Principle Axis**
 
 
 
