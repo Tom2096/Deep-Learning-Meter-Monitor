@@ -25,7 +25,7 @@ A rectangular bounding box is constructed by estimating the likely intersections
 
 ## 2.3 Instance Segmention ##
 
-
+YOLACT is used to perform instance segmentation on
 
 
 Then, three points (in red) pinpointing the center, the y-axis, and the x-axis are manually plotted. These points will be used as a frame for all future pictures. 
